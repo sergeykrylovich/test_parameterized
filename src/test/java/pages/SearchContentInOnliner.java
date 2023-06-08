@@ -20,7 +20,7 @@ public class SearchContentInOnliner {
         //$("input.search__input").pressEnter();
     }
 
-    public void verifySearchInOnliner(String productName) {
+    public void verifySearchOnOnliner(String productName) {
         $(".schema-header__title").shouldHave(text(productName));
     }
 }

@@ -15,7 +15,7 @@ public class TestBase {
         browserSize = "1920x1080";
         //holdBrowserOpen = true;
         browser = "chrome";
-        headless = true;
+        //headless = true;
     }
 
 
